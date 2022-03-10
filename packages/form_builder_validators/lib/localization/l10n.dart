@@ -101,10 +101,10 @@ class FormBuilderLocalizations {
     );
   }
 
-  /// `This field requires a valid email address.`
+  /// `This field requires a valid abc address.`
   String get emailErrorText {
     return Intl.message(
-      'This field requires a valid email address.',
+      'This field requires a valid abc address.',
       name: 'emailErrorText',
       desc: 'Error Text for email field',
       args: [],

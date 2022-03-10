@@ -41,7 +41,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "dateStringErrorText": MessageLookupByLibrary.simpleMessage(
             "This field requires a valid date string."),
         "emailErrorText": MessageLookupByLibrary.simpleMessage(
-            "This field requires a valid email address."),
+            "This field requires a valid abc address."),
         "equalErrorText": m0,
         "integerErrorText": MessageLookupByLibrary.simpleMessage(
             "This field requires a valid integer."),
