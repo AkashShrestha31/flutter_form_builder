@@ -1,0 +1,106 @@
+{
+  "@@last_modified": "2020-11-13T10:38:27.938366",
+  "@@locale": "ne",
+  "requiredErrorText": "यो क्षेत्र खाली हुन सक्दैन ।",
+  "@requiredErrorText": {
+    "description": "Error Text for required validator",
+    "type": "text",
+    "placeholders": {}
+  },
+  "equalErrorText": "यो क्षेत्र मान {value} बराबर हुनुपर्छ ।",
+  "@equalErrorText": {
+    "description": "Error Text for equal validator",
+    "type": "text",
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "notEqualErrorText": "यो क्षेत्र मान {value} बराबर हुनु हुँदैन ।",
+  "@notEqualErrorText": {
+    "description": "Error Text for not-equal validator",
+    "type": "text",
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "minErrorText": "मान {min} भन्दा बढी वा बराबर हुनुपर्छ ।",
+  "@minErrorText": {
+    "description": "Error Text for required field",
+    "type": "text",
+    "placeholders": {
+      "min": {}
+    }
+  },
+  "minLengthErrorText": "मानको लम्बाइ {minLength} भन्दा बढी वा बराबर हुनुपर्छ ।",
+  "@minLengthErrorText": {
+    "description": "Error Text for minLength validator",
+    "type": "text",
+    "placeholders": {
+      "minLength": {}
+    }
+  },
+  "maxErrorText": "मान {max} भन्दा कम वा बराबर हुनुपर्छ ।",
+  "@maxErrorText": {
+    "description": "Error Text for max validator",
+    "type": "text",
+    "placeholders": {
+      "max": {}
+    }
+  },
+  "maxLengthErrorText": "मानको लम्बाइ {maxLength} भन्दा कम वा बराबर हुनुपर्छ ।",
+  "@maxLengthErrorText": {
+    "description": "Error Text for required field",
+    "type": "text",
+    "placeholders": {
+      "maxLength": {}
+    }
+  },
+  "emailErrorText": "यो फिल्डलाई मान्य इमेल ठेगाना चाहिन्छ ।",
+  "@emailErrorText": {
+    "description": "Error Text for email validator",
+    "type": "text",
+    "placeholders": {}
+  },
+  "urlErrorText": "यो फिल्डलाई मान्य URL ठेगाना चाहिन्छ ।",
+  "@urlErrorText": {
+    "description": "Error Text for URL validator",
+    "type": "text",
+    "placeholders": {}
+  },
+  "matchErrorText": "मान ढाँचासँग मेल खाँदैन ।",
+  "@matchErrorText": {
+    "description": "Error Text for pattern validator",
+    "type": "text",
+    "placeholders": {}
+  },
+  "numericErrorText": "मान संख्यात्मक हुनुपर्छ ।",
+  "@numericErrorText": {
+    "description": "Error Text for numeric validator",
+    "type": "text",
+    "placeholders": {}
+  },
+  "integerErrorText": "मान एक पूर्णांक हुनुपर्छ ।",
+  "@integerErrorText": {
+    "description": "Error Text for integer validator",
+    "type": "text",
+    "placeholders": {}
+  },
+  "creditCardErrorText": "यो फिल्डलाई मान्य क्रेडिट कार्ड नम्बर चाहिन्छ ।",
+  "@creditCardErrorText": {
+    "description": "Error Text for credit card validator",
+    "type": "text",
+    "placeholders": {}
+  },
+  "ipErrorText": "यो फिल्डलाई मान्य IP चाहिन्छ ।",
+  "@ipErrorText": {
+    "description": "Error Text for IP address validator",
+    "type": "text",
+    "placeholders": {}
+  },
+  "dateStringErrorText": "यो फिल्डलाई मान्य मिति चाहिन्छ ।",
+  "@dateStringErrorText": {
+    "description": "Error Text for date string validator",
+    "type": "text",
+    "placeholders": {}
+  }
+}
