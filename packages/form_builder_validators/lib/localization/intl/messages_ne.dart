@@ -20,45 +20,45 @@ typedef String MessageIfAbsent(String messageStr, List<dynamic> args);
 class MessageLookup extends MessageLookupByLibrary {
   String get localeName => 'ne';
 
-  static String m0(value) => "This field value must be equal to ${value}.";
+  static String m0(value) => "यो क्षेत्र मान ${value} बराबर हुनुपर्छ ।";
 
-  static String m1(max) => "Value must be less than or equal to ${max}";
+  static String m1(max) => "मान ${max} भन्दा कम वा बराबर हुनुपर्छ ।";
 
   static String m2(maxLength) =>
-      "Value must have a length less than or equal to ${maxLength}";
+      "मानको लम्बाइ ${maxLength} भन्दा कम वा बराबर हुनुपर्छ ।";
 
-  static String m3(min) => "Value must be greater than or equal to ${min}.";
+  static String m3(min) => "मान ${min} भन्दा बढी वा बराबर हुनुपर्छ ।";
 
   static String m4(minLength) =>
-      "Value must have a length greater than or equal to ${minLength}";
+      "मानको लम्बाइ ${minLength} भन्दा बढी वा बराबर हुनुपर्छ ।";
 
-  static String m5(value) => "This field value must not be equal to ${value}.";
+  static String m5(value) => "यो क्षेत्र मान ${value} बराबर हुनु हुँदैन ।";
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "creditCardErrorText": MessageLookupByLibrary.simpleMessage(
-            "This field requires a valid credit card number."),
+            "यो फिल्डलाई मान्य क्रेडिट कार्ड नम्बर चाहिन्छ ।"),
         "dateStringErrorText": MessageLookupByLibrary.simpleMessage(
-            "This field requires a valid date string."),
+            "यो फिल्डलाई मान्य मिति चाहिन्छ ।"),
         "emailErrorText": MessageLookupByLibrary.simpleMessage(
-            "This field requires a valid maill address."),
+            "यो फिल्डलाई मान्य इमेल ठेगाना चाहिन्छ ।"),
         "equalErrorText": m0,
-        "integerErrorText": MessageLookupByLibrary.simpleMessage(
-            "This field requires a valid integer."),
+        "integerErrorText":
+            MessageLookupByLibrary.simpleMessage("मान एक पूर्णांक हुनुपर्छ ।"),
         "ipErrorText": MessageLookupByLibrary.simpleMessage(
-            "This field requires a valid IP."),
-        "matchErrorText": MessageLookupByLibrary.simpleMessage(
-            "Value does not match pattern."),
+            "यो फिल्डलाई मान्य IP चाहिन्छ ।"),
+        "matchErrorText":
+            MessageLookupByLibrary.simpleMessage("मान ढाँचासँग मेल खाँदैन ।"),
         "maxErrorText": m1,
         "maxLengthErrorText": m2,
         "minErrorText": m3,
         "minLengthErrorText": m4,
         "notEqualErrorText": m5,
         "numericErrorText":
-            MessageLookupByLibrary.simpleMessage("Value must be numeric."),
-        "requiredErrorText":
-            MessageLookupByLibrary.simpleMessage("This field cannot be empty."),
+            MessageLookupByLibrary.simpleMessage("मान संख्यात्मक हुनुपर्छ ।"),
+        "requiredErrorText": MessageLookupByLibrary.simpleMessage(
+            "यो क्षेत्र खाली हुन सक्दैन ।"),
         "urlErrorText": MessageLookupByLibrary.simpleMessage(
-            "This field requires a valid URL address.")
+            "यो फिल्डलाई मान्य URL ठेगाना चाहिन्छ ।")
       };
 }
