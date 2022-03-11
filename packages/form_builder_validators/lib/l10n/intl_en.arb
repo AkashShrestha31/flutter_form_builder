@@ -39,7 +39,7 @@
       "maxLength": {}
     }
   },
-  "emailErrorText": "This field requires a valid email address.",
+  "emailErrorText": "This field requires a valid xyz address.",
   "@emailErrorText": {
     "description": "Error Text for email field",
     "type": "text",
