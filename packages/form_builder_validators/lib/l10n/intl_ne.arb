@@ -1,6 +1,5 @@
 {
   "@@last_modified": "2020-11-13T10:38:27.938366",
-  "@@locale": "ne",
   "requiredErrorText": "यो क्षेत्र खाली हुन सक्दैन ।",
   "@requiredErrorText": {
     "description": "Error Text for required validator",
